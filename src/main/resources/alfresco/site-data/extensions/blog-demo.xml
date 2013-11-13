@@ -1,0 +1,19 @@
+<extension>
+    <modules>
+        <module>
+            <id>Blog Module (New Content)</id>
+            <components>
+                <component>
+                    <region-id>full-width-dashlet</region-id>
+                    <source-id>user/admin/dashboard</source-id>
+                    <scope>page</scope>
+                    <sub-components>
+                        <sub-component id= "New_Content" index= "25" >
+                            <url>/blog/demo/new-content</url>
+                        </sub-component>
+                    </sub-components>
+                </component>
+            </components>
+        </module>
+    </modules>
+</extension>
